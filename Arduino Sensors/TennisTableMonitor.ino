@@ -2,12 +2,12 @@
 #include <FirebaseESP32.h>
 
 // Provide your Wi-Fi credentials
-const char* WIFI_SSID = "Blankfactor Staff";
-const char* WIFI_PASSWORD = "bl@nkf@ct0r";
+const char* WIFI_SSID = "";
+const char* WIFI_PASSWORD = "";
 
 // Firebase configuration
-const char* FIREBASE_HOST = "https://tabletennis-detector-default-rtdb.firebaseio.com/";
-const char* FIREBASE_AUTH = "eoOqKSYqwO5PhYXbVaZ73HNclbQwRDaBC9cBiMlO";
+const char* FIREBASE_HOST = "";
+const char* FIREBASE_AUTH = "";
 
 //const int pirPin = 0; // Use P0 for the PIR sensor
 const int vibrationPin = 2; // Use P2 for the vibration sensor
