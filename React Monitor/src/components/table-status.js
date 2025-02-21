@@ -65,32 +65,20 @@ function TableStatus() {
             oldEvents.forEach((eventsTimeStampRef) => remove(eventsTimeStampRef));
         });
 
-        //setInterval(() => {
+        setInterval(() => {
 
-        //    const now = Date.now();
-        //    const twoMinutesAgo = now - 120000; // 2 minutes in milliseconds
+            //Insert old event to wake up the db
+            const timestamp = Date.now() - 120001; // Milliseconds since epoch
 
-        //    let oldEvents = [];
-        //    let timestamps = [];
+            // Define the key as "timestamp_{timestamp}"
+            const key = `event_${timestamp}`;
 
-        //    get(eventsTimeStampRef).then((snapshot) => {
-        //        if (snapshot.exists()) {
-        //            snapshot.forEach((child) => {
-        //                const record = child.val().record;
-
-        //                if (record.timestamp < twoMinutesAgo)
-        //                    oldEvents.push(child.ref); // Collect old events for deletion
-
-        //                timestamps.push(record.timestamp);
-        //            });
-        //        }
-        //    });
-
-        //    processBallEvents(timestamps);
-
-        //    // Delete old events
-        //    oldEvents.forEach((eventsTimeStampRef) => remove(eventsTimeStampRef));
-        //}, 10000);
+            // Write data to Firebase
+            set(ref(database, `ball_events_timestamp/${key}/record`), {
+                event: "ball detected",
+                timestamp: timestamp
+            });
+        }, 10000);
 
     }, []);
 
@@ -120,15 +108,15 @@ function TableStatus() {
         // 🔹 Update state
         setHitCount(recentHits.length);
 
-        if (recentHits.length > 10)
-            setStatus("🎾 Playing!");
+        if (recentHits.length > 5)
+            setStatus("🏓 Playing!");
         else
             setStatus("✅ Free");
     };
 
     return (
         <div style={{ textAlign: "center", fontSize: "24px", marginTop: "20px" }}>
-            <p>Valid hits in last 2 min: <strong>{hitCount}</strong></p>
+            <p>Average "real" hits in the last 2 minutes: <strong>{hitCount}</strong></p>
             <h1>{status}</h1>
         </div>
     );

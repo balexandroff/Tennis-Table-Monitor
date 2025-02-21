@@ -4,21 +4,21 @@ import TableStatus from "./components/table-status"; // Import the TableStatus c
 function App() {
     return (
         <div style={{
-            textAlign: "center", 
-            padding: "20px", 
-            display: "flex", 
-            flexDirection: "column", 
-            alignItems: "center", 
+            textAlign: "center",
+            padding: "20px",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
             justifyContent: "center",
             /*height: "100vh"*/
         }}>
-            <h1>🏓 Ping Pong Table Status</h1>
+            <h1>🏓 Tennis Table Status</h1>
             <TableStatus />
 
             {/* Table Image */}
-            <img 
-                src="/table-tennis-green.png" 
-                alt="Table Tennis Table"
+            <img
+                src="/table-tennis-green.png"
+                alt="Tennis Table"
                 style={{ width: "50%", maxWidth: "600px", borderRadius: "10px" }}
             />
 
