@@ -1,18 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\",
+  "WorkspaceRootPath": "C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\firebase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\firebase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Work\\Projects\\Tennis-Table-Monitor\\Arduino Sensors\\TennisTableMonitor\\TennisTableMonitor.ino||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\components\\table-status.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\components\\table-status.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\table-status.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\firebase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\firebase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +25,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "TennisTableMonitor.ino",
+              "DocumentMoniker": "C:\\Work\\Projects\\Tennis-Table-Monitor\\Arduino Sensors\\TennisTableMonitor\\TennisTableMonitor.ino",
+              "RelativeDocumentMoniker": "..\\Arduino Sensors\\TennisTableMonitor\\TennisTableMonitor.ino",
+              "ToolTip": "C:\\Work\\Projects\\Tennis-Table-Monitor\\Arduino Sensors\\TennisTableMonitor\\TennisTableMonitor.ino",
+              "RelativeToolTip": "..\\Arduino Sensors\\TennisTableMonitor\\TennisTableMonitor.ino",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKcSURBVDhPlZM9aJ1lGIav532/JCc1vybHQygkLbE1UaiDhSKoiIsgWCkOFkTt4qq4iJ0Et3ZwLnTooLgqODgJDoI0bY0JBNtFRQ8k7cnJOeZ8Od/3/j4OdZDQFrzgWh7u\u002B94eiTnz\u002BeYWy1OT0/eq6tmgeY5HUIjpzTcamzc7u3uXz5xWufjTGs3xxurdqro0jOlFRRuHS/9FwI3b4voT441P/izLdbmyuTW10e1\u002B0ff\u002BbFY9nH8gIsL06Oj3qzMz5\u002BWDH3586fdy8E2d0qwgh7MPQRk1tlyamDhvOlU1163deN979pxjt67v62p63tHzjl33762u2XOOnvd0nRvrVNW86TvHfoj0faSwlteWFrmwcpLnmk2GMVHGxKm5Od5bOcnrx5ZoFAV9H9kPgb7zmDIEhikyZg0frj7Fk6J0drZ5o9Xkwoll3l4\u002BzlsLLfp3d1gk89HTK0wU9v54CBiXEiFnTs3OkIYHXLl9hxvlAZd\u002B/oVnHjvC81MTXL5xk7\u002BN5cvf/qB/UHJ6dpqQEz4ljMsZVYUYKVNCbEHDe4IIA\u002B8ZOI8fHaPwDlKiDJHsHKqKyxkTUkJU2ex2Ue959egC05OTvHt8iTvtNrfabd45tkgvJV5YaHHEO27d62CAkBN29uy51aT5zSqm4tfuLo\u002BnSAtY397mu06XjXJIPRiwOFKwPxjw9V9tOmIwItmofivLV6\u002BdC6pfAQ1VJaeIpIxaiyksIOSUkBRRBBkpMGIAwojI\u002B0ZD6EkINSEgMWIVjDFYVSREJARszhgxWBFMTBACEoLPIfSMhrCB99dxjv/pOiGs2cmXX6nJeUtjPKExtjRG0RiTxpgfoGqMjpTWUP04eX9bjn76GRQFqDZRzoDOAw/7KgHZQ1hDzA4p8g/ekLaPdv13DwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-21T12:12:50.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "table-status.js",
-              "DocumentMoniker": "C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\components\\table-status.js",
+              "DocumentMoniker": "C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\components\\table-status.js",
               "RelativeDocumentMoniker": "src\\components\\table-status.js",
-              "ToolTip": "C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\components\\table-status.js",
+              "ToolTip": "C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\components\\table-status.js",
               "RelativeToolTip": "src\\components\\table-status.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAkwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-15T14:19:56.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "firebase.js",
-              "DocumentMoniker": "C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\firebase.js",
+              "DocumentMoniker": "C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\firebase.js",
               "RelativeDocumentMoniker": "src\\firebase.js",
-              "ToolTip": "C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\firebase.js",
+              "ToolTip": "C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\firebase.js",
               "RelativeToolTip": "src\\firebase.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -52,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "App.js",
-              "DocumentMoniker": "C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\App.js",
+              "DocumentMoniker": "C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\App.js",
               "RelativeDocumentMoniker": "src\\App.js",
-              "ToolTip": "C:\\Work\\Projects\\TableTennis Detector\\React Monitor\\src\\App.js",
+              "ToolTip": "C:\\Work\\Projects\\Tennis-Table-Monitor\\React Monitor\\src\\App.js",
               "RelativeToolTip": "src\\App.js",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-15T14:15:33.611Z",
               "EditorCaption": ""
