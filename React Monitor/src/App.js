@@ -1,5 +1,6 @@
 import React from "react";
 import TableStatus from "./components/table-status"; // Import the TableStatus component
+import './App.css';
 
 function App() {
     return (
@@ -19,11 +20,11 @@ function App() {
             <img
                 src="/table-tennis-green.png"
                 alt="Tennis Table"
-                style={{ width: "50%", maxWidth: "600px", borderRadius: "10px" }}
+                className="tennis-table"
             />
 
             <a href="https://revolut.me/borislvwiq" target="_blank">
-                <img src="../buy-me-a-beer.png" alt="Buy Me A Beer" style={{ width: 180 + 'px', position: 'fixed', bottom: 20 + 'px', left: 50 + '%', transform: 'translate(-50%)' }} /></a>
+                <img src="../buy-me-a-beer.png" alt="Buy Me A Beer" className="buy-me-a-beer" /></a>
             {/* Status Component */}
         </div>
     );

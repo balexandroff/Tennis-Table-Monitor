@@ -28,11 +28,69 @@
   color: #61dafb;
 }
 
+.tennis-table {
+  width: 60%; 
+  max-width: 800px; 
+  border-radius: 10px;
+}
+
+.buy-me-a-beer{
+  width: 180px;
+  position: fixed;
+  bottom: 20px; 
+  left: 50%; 
+  transform: translate(-50%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Large Tablets and Small Laptops */
+@media only screen and (max-width: 992px) {
+  .tennis-table {
+    width: 80% !important;
+  }
+
+  .buy-me-a-beer{
+    width: 160px !important;
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (max-width: 768px) {
+  .tennis-table {
+    width: 80% !important;
+  }
+
+  .buy-me-a-beer{
+    width: 150px !important;
+  }
+}
+
+/* Small Devices (Phones) */
+@media only screen and (max-width: 600px) {
+  .tennis-table {
+    width: 80% !important;
+  }
+
+  .buy-me-a-beer{
+    width: 140px !important;
+  }
+}
+
+/* Extra Small Devices (Phones) */
+@media only screen and (max-width: 480px) {
+  .tennis-table {
+    width: 80% !important;
+  }
+
+  .buy-me-a-beer{
+    width: 130px !important;
   }
 }
