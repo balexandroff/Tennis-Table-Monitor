@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.gitignore
+React Monitor/.vs/slnx.sqlite
+React Monitor/.vs/VSWorkspaceState.json
+React Monitor/.vs/React Monitor/FileContentIndex/c913ee32-8205-4c10-b89f-6df904e3a9ef.vsidx
+React Monitor/.vs/React Monitor/v17/.wsuo
+React Monitor/.vs/React Monitor/v17/DocumentLayout.backup.json
+React Monitor/.vs/React Monitor/v17/DocumentLayout.json
