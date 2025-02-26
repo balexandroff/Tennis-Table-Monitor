@@ -23,7 +23,7 @@ function App() {
                 className="tennis-table"
             />
 
-            <a href="https://revolut.me/borislvwiq" target="_blank">
+            <a href="https://revolut.me/georgidmpq" target="_blank">
                 <img src="../buy-me-a-beer.png" alt="Buy Me A Beer" className="buy-me-a-beer" /></a>
             {/* Status Component */}
         </div>
